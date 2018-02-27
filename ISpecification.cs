@@ -1,5 +1,5 @@
 namespace SpecificationPattern {
     interface ISpecification<T> {
-        bool IsSatisfied(Person person);
+        bool IsSatisfied(T entity);
     }
 }

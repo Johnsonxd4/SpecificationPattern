@@ -17,7 +17,7 @@ namespace SpecificationPattern
             
             foreach (var item in pf.Filter(people, spec))
                 Console.WriteLine($"The name {item.Name} satisfies the specification");
-
+            
         }
     }
 }
